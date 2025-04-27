@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+:root {
+ --cor-principal:#717ba6 ;
+ --cor-secundaria:#1f1d3d ;
+ --cor-destaque:#161c36 ;
+}
+
+body {
+font-family:Comic Relief, sans-serif;
+
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
